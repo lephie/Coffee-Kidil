@@ -8,10 +8,10 @@ import { Navigation, Pagination, A11y } from 'swiper/modules';
 
 const Sliders2 = () => {
     return (
-        <div className="mx-20">
+        <div className="mx-auto ml-1.5 px-4 py-5 mt-10 mb-30">
         <Swiper
             modules={[Navigation, Pagination, A11y]}
-            spaceBetween={50}
+            spaceBetween={20}
             slidesPerView={1}
             navigation={{
                 prevEl: "prev-button",

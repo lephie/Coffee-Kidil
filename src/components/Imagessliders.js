@@ -11,7 +11,7 @@ const Imagessliders = () => {
       <div className="margin-0">
     <Swiper
       modules={[Navigation, Pagination, A11y]}
-      spaceBetween={40}
+      spaceBetween={20}
       slidesPerView={1}
       navigation ={{
         prevEl : "prev-button",

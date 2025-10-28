@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} bg-[#F2E6E6] antialiased`} 
+        className={`${montserrat.variable}  bg-[#F2E6E6] antialiased`} 
       >
         {children}
       </body>
