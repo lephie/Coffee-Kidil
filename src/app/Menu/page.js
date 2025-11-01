@@ -1,7 +1,9 @@
 import { Search, Store } from "lucide-react";
 import Image from "next/image";
 
+
 const Menu = () => {
+
     return (
         <div className="w-full bg-white p-4 shadow-sm">
 
